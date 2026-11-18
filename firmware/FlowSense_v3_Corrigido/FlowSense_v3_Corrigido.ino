@@ -29,7 +29,7 @@
 const char* WIFI_NOME = "FlowSense-ESP32";
 const char* WIFI_SENHA = "FlowSense2026";
 const int WIFI_CLIENTES = 10;
-const bool USAR_DOIS_E18 = false;  // ALTERAR para true APENAS apos montar e validar os dois E18
+const bool USAR_DOIS_E18 = true;  // ALTERAR para true APENAS apos montar e validar os dois E18
 const uint8_t PINO_A = 32;
 const uint8_t PINO_B = 33;
 const int NIVEL_ATIVO = LOW;       // NQ-G3 e E18 NPN ativos em LOW
